@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 0-square.py
+# 2-square.py
 # Mohamed Khalaf
 """Define a class Square."""
 
@@ -12,7 +12,7 @@ class Square:
 
         Args:
             self: The instance arg, optional=0.
-            size: The size of the square.
+            size (int): The size of the square.
 
         Returns:
             No return values; None.
