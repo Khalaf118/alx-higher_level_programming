@@ -11,7 +11,7 @@ class Square:
         """ Initialization the instance.
 
         Args:
-            self: The instance arg.
+            self: The instance arg, optional=0.
             size: The size of the square.
 
         Returns:
