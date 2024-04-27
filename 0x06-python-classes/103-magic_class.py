@@ -5,7 +5,7 @@
 import math
 
 
-class _MagicClass:
+class MagicClass:
     """Magic Class to calculate circle area and circumference"""
 
     def __init__(self, radius):
