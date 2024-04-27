@@ -12,3 +12,9 @@ try:
     print("Area: {} for size: {}".format(my_square.area(), my_square.size))
 except Exception as e:
     print(e)
+
+try:
+    my_square_1 = Square(-1)
+    print("Area: {} for size: {}".format(my_square_1.area(), my_square_1.size))
+except Exception as e:
+    print(e)
