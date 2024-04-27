@@ -9,7 +9,11 @@ class _MagicClass:
     """Magic Class to calculate circle area and circumference"""
 
     def __init__(self, radius):
-        """Initialization the circle radius"""
+        """Initialization the circle radius.
+
+        Arg:
+            radius (float or int): The radius of the new circle.
+        """
 
         self.__radius = 0
         if type(radius) is not int or type(radius) is not float:
