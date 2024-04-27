@@ -8,7 +8,7 @@ import math
 class MagicClass:
     """Magic Class to calculate circle area and circumference"""
 
-    def __init__(self, radius):
+    def __init__(self, radius=0):
         """Initialization the circle radius.
 
         Arg:
